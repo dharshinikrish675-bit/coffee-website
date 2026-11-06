@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Madurai Coffee House</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial; }
+body { background: #fff8ee; }
+.top { background: #2b160a; color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
+.top h2 { font-size: 22px; }
+.top a { color: white; text-decoration: none; margin-left: 15px; font-size: 14px; }
+.hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200'); background-size: cover; background-position: center; color: white; text-align: center; padding: 90px 20px; }
+.hero h1 { font-size: 48px; }
+.hero p { font-size: 18px; margin: 15px 0; }
+.btn { background: #ff8c00; color: white; padding: 12px 25px; border: none; border-radius: 25px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block; }
+.section { padding: 40px 20px; text-align: center; }
+.menu { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
+.card { background: white; width: 250px; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); padding-bottom: 20px; }
+.card img { width: 100%; height: 160px; object-fit: cover; }
+.card h3 { margin: 12px 0 5px; color: #2b160a; }
+.card p { color: #666; font-size: 14px; padding: 0 10px; }
+.price { color: #008000; font-weight: bold; font-size: 20px; margin: 10px 0; }
+.order { background: #2b160a; color: white; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; }
+.about { background: white; padding: 40px 20px; text-align: center; max-width: 700px; margin: 0 auto 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+.footer { background: #2b160a; color: white; padding: 20px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="top">
+<h2>☕ Madurai Coffee House</h2>
+<div><a href="#">Home</a> <a href="#">Menu</a> <a href="#">About</a></div>
+</div>
+<div class="hero">
+<h1>Madurai's Best Filter Coffee</h1>
+<p>Strong, Hot & Authentic Taste | Since 2026</p><br>
+<a href="#menu" class="btn">View Menu 👇</a>
+</div>
+<div class="section" id="menu">
+<h2>Our Special Menu</h2>
+<p>Unakku pudicha Coffee-a select pannu</p>
+<div class="menu">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1615887023544-3e566f29d822?w=500">
+<h3>Filter Coffee</h3>
+<p>Traditional Madurai Filter Coffee</p>
+<div class="price">₹ 30</div>
+<button class="order" onclick="alert('Filter Coffee Added!')">Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500">
+<h3>Cappuccino</h3>
+<p>Creamy & Frothy Coffee</p>
+<div class="price">₹ 120</div>
+<button class="order" onclick="alert('Cappuccino Added!')">Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500">
+<h3>Cold Coffee</h3>
+<p>Chilled Coffee with Ice Cream</p>
+<div class="price">₹ 150</div>
+<button class="order" onclick="alert('Cold Coffee Added!')">Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500">
+<h3>Masala Tea</h3>
+<p>Hot & Spicy Masala Tea</p>
+<div class="price">₹ 40</div>
+<button class="order" onclick="alert('Masala Tea Added!')">Add to Cart</button>
+</div>
+</div>
+</div>
+<div class="about">
+<h2>About Us</h2><br>
+<p>Vanakkam! Madurai la romba famous aana coffee shop. Enga coffee kudicha, vera enga yum kudikka mudiyathu. 100% Pure Milk, Fresh Coffee Powder.</p><br>
+<p><b>Timing:</b> Morning 7 AM - Night 10 PM</p>
+<p><b>Location:</b> Madurai, Tamil Nadu</p>
+</div>
+<div class="footer">
+<p>© 2026 Madurai Coffee House | Made with ❤️ in Madurai</p>
+<p>Order on WhatsApp: 98765 43210</p>
+</div>
+</body>
+</html>
